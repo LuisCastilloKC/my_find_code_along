@@ -7,3 +7,9 @@ def my_find(collection)
       i = i + 1
     end
   end 
+
+#   does not call on #find
+#   can handle an empty collection
+#   yields the correct element to the block
+#   returns the elements from the array when the block condition is met
+#   returns nil when the block condition is not met
